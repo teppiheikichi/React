@@ -1,5 +1,8 @@
 import './App.css';
-import BindingData from './BindingData/BindingData';
+// import BindingData from './BindingData/BindingData';
+import HandleEvent from './HandleEvent/HandleEvent';
+import BaiTapChonXe from './StateReact/BaitapState/BaiTapChonXe';
+import DemoState from './StateReact/DemoState';
 // import BTLayout from './Components/BTLayout/BTLayout';
 // import HeaderClass from './Components/HeaderClass';
 // import HeaderFunc from './Components/HeaderFunc';
@@ -10,7 +13,10 @@ function App() {
       {/* <HeaderClass /> */}
       {/* <HeaderFunc /> */}
       {/* <BTLayout /> */}
-      <BindingData />
+      {/* <BindingData /> */}
+      {/* <HandleEvent /> */}
+      {/* <DemoState /> */}
+      <BaiTapChonXe/>
     </div>
   );
 }
