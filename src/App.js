@@ -1,4 +1,5 @@
 import './App.css';
+import BT3Layout from './Components/BaiTapThucHanhLayout/BT3Layout';
 // import BindingData from './BindingData/BindingData';
 import HandleEvent from './HandleEvent/HandleEvent';
 import BaiTapChonXe from './StateReact/BaitapState/BaiTapChonXe';
@@ -16,7 +17,8 @@ function App() {
       {/* <BindingData /> */}
       {/* <HandleEvent /> */}
       {/* <DemoState /> */}
-      <BaiTapChonXe/>
+      {/* <BaiTapChonXe/> */}
+      <BT3Layout />
     </div>
   );
 }
